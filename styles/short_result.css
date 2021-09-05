@@ -1,0 +1,23 @@
+/*short_result.css*/
+#shortened_result{
+	color: #fff;
+	/*border: 1px solid #aaa;*/
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#shortened_result textarea{
+	resize: none;
+	width: 300px;
+	height: 50px;
+	padding: 10px;
+	font-size: 17px;
+	vertical-align: middle;
+}
+#copy_btnn{
+	width: 100px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}

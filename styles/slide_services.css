@@ -1,0 +1,142 @@
+body{
+	background: url('../images/Alternating-Arrowhead.svg');
+}
+.slide_container{
+	width: 100%;
+	height: 500px;
+	
+	margin-top: 60px;
+	/*background: url('new/images/loading4.gif');*/
+	/*background-color: red;*/
+	/*background-color: #fff;*/
+}
+.slide_content{
+	position: absolute;
+	/*display: none;*/
+	width: 100%;
+	height: 500px;
+	transition-duration: .7s;
+	overflow: hidden;
+	/*object-fit: cover;*/
+	/*background-color: inherit;*/
+
+}
+/*.slide_content:nth-child(1){
+	background-color: #ddd;
+}
+.slide_content:nth-child(2){
+	background-color: #aaa;
+}
+.slide_content:nth-child(3){
+	background-color: #abb1ba;
+}*/
+.slide_img{
+	width: 100%;
+	/*height: 500px;*/
+	background-size: cover;
+
+	
+}
+.content_overlap{
+	background: rgba(0,0,0,.8);
+	position: absolute;
+	color: #fff;
+	/*width: 200px;
+	height: 100px;
+	right: 0;
+	bottom: 0;*/
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+
+	/*top:40%;*/
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	text-align: center;
+
+	padding: 20px;
+	z-index: 2;
+}
+.some_features{
+	display: flex;
+	width: 100%;
+	margin-top: 20px;
+	position: relative;
+}
+.some_features_left{
+	flex: 30%;
+	padding: 7px;
+	margin-left: 40px;
+	margin-right: 40px;
+	line-height: 22px;
+	/*background-color: red;*/
+}
+.sub_head_orange{
+	font-size: 25px;
+	color: #eb892e;
+}
+.row_row{
+	position: static;
+}
+.some_features_right{
+	flex: 30%;
+	padding: 7px;
+	
+	/*background-color: pink;*/
+}
+.counts_div{
+	/*background-color: #ddd;*/
+	display: flex;
+}
+.total_counts{
+	/*background-color: #aaa;*/
+	margin: 7px;
+	padding: 7px;
+	text-align: center;
+}
+.counts_num{
+	font-size: 35px;
+	/*color: #eb892e;*/
+	/*font-weight: bold;*/
+}
+.counts_title{
+	font-size: 13px;
+	color: #aaa;
+	font-weight: bold;
+}
+@media(max-width: 900px){
+	.slide_container, .slide_content{
+		height: 200px;
+		background: #ddd;
+		overflow: hidden;
+	}
+	.slide_img{
+		height: 200px;
+		object-fit: fill;
+	}
+	.content_overlap{
+		font-size: 18px;
+		word-wrap: break-word;
+		padding: 11px;
+	}
+	.some_features{
+		/*background-color: red;*/
+		flex-direction: column;
+	}
+	.some_features_left{
+		margin: 10px 8px 10px 4px;
+	}
+	/*.typewriter{
+		font-size: 18px !important;
+		top:12% !important;
+	}*/
+	.counts_div{
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		justify-content: center;
+	}
+	.sub_head_orange{
+		padding-left: 11px;
+	}
+}

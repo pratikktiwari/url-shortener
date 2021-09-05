@@ -1,0 +1,17 @@
+body{
+	/*background-color: red;*/
+	/*background: url('../svg_bg/Bermuda_Circle.svg');*/
+	/*background: url('../svg_bg/Colorful_Stingrays.svg');*/
+	/*background: url('../svg_bg/Flat_Mountains.svg');*/
+	background: url('../svg_bg/Polka_Dots.svg');
+	/*background: url('../svg_bg/Protruding_Squares.svg');*/
+	/*background: url('../svg_bg/Radiant_Gradient.svg');*/
+	/*background: url('../svg_bg/Vanishing_Stripes.svg');*/
+	/*background: url('../svg_bg/Subtle_Prism.svg');*/
+	/*background: url('../svg_bg/Repeating_Triangles.svg');*/
+	/*background: url('../svg_bg/Rainbow_Vortex.svg');*/
+	/*background: url('../svg_bg/Wintery_Sunburst.svg');*/
+
+	background-size: cover;
+	background-repeat: repeat;
+}

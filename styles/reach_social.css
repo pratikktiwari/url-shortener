@@ -1,0 +1,30 @@
+.reach_social .reach_social_row{
+	width: 100%;
+	background-color: #007bff;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 50px;
+	font-size: 22px;
+	padding: 8px;
+	box-sizing: border-box;
+	position: relative;
+	bottom: 0;
+
+}
+.reach_social .reach_social_row  div{
+	flex:1;
+	cursor: pointer;
+}
+.reach_social .reach_social_row div a{
+	text-decoration: none;
+	color: #fff;
+}
+.reach_social .reach_social_row  div span{
+	font-size: 14px;
+}
+.reach_address{
+	font-size: 16px;
+}

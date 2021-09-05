@@ -1,0 +1,61 @@
+.shortener_div{
+	/*background-color: #ddd;*/
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	/*display: none;*/
+	margin-top: 250px;
+	margin-bottom: 40px;
+	/*margin-bottom: 100px;*/
+}
+
+.shortener_div div{
+	width: 80%;
+	/*background-color: #aaa;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+.shortener_form{
+	padding: 20px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.shortener_form div input[type="text"], .shortener_form div input[type="url"]{
+	width: 70%;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #76000b;
+	/*background-color: #fff;*/
+	color: #fff;
+	font-family: Arial;
+	font-family: Open Sans;
+	border: 0.1px solid rgba(255,255,255,0.5);
+	font-size: 17px;
+	padding: 5px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.shortener_form div button{
+	width: 100px;
+	background-color: #e72c30;
+	color: #fff;
+	height: unset;
+	font-size: 16px;
+	font-family: Open Sans;
+	padding: 10px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+@media(max-width: 800px){
+	.shortener_div div{
+		width: 98%;
+	}
+	.shortener_form div input[type="text"]{
+		width: 95%;
+	}
+}

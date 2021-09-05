@@ -1,0 +1,87 @@
+.main_container{
+	margin-top: 60px;
+	box-sizing: border-box;
+}
+.upper_row{
+	padding: 70px 10px 10px 10px;
+	height: 290px;
+	box-sizing: border-box;
+	text-align: center;
+	/*font-family: Monotype Corsiva !important;*/
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	background-image: linear-gradient(90deg, rgba(197,39,61), rgba(79,71,136));
+	line-height: 33px;
+}
+.title_h1{
+	font-size: 40px;
+	/*font-family: 'Open Sans', sans-serif;*/
+	/*font-family: Monotype Corsiva;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 20px;
+	/*background-color: black;*/
+}
+.upper_row p{
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.second_row{
+	width: 80%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	display: flex;
+}
+.title_place{
+	font-size: 18px;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-weight: bold;
+	line-height: 37px;
+}
+.title_company{
+	font-weight: bold;
+	color: #aaa;
+}
+.title_address{
+	line-height: 23px;
+	font-size: 15px;
+}
+.left_second{
+	flex: 30%;
+	margin: 8px;
+	padding: 12px;
+}
+.right_second{
+	flex: 70%;
+	background-color: #ddd;
+	background: url("../images/ns/Note_And_Save.png");
+	background-size: cover;
+	margin: 8px;
+	padding: 12px;
+}
+.ti{
+	color: #e15331;
+	font-size: 23px;
+}
+@media(max-width: 900px){
+	.second_row{
+		flex-direction: column;
+	}
+	.upper_row{
+		padding-top: 20px;
+	}
+	.title_h1{
+		font-size: 30px;
+	}
+	.upper_row p{
+		font-size: 20px;
+	}
+	.right_second{
+		flex: 100%;
+		line-height: 100px;
+		height: 200px !important;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}

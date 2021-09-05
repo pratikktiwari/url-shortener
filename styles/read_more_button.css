@@ -1,0 +1,21 @@
+.read_more_button{
+	background-color: #e98331;
+	color: #fff;
+	border-radius: 15px;
+	border: 0;
+	padding: 7px 16px 7px 16px;
+	font-size: 13px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+.hidden_text{
+	display: none;
+	/*color: #fff;*/
+	line-height: 27px;
+	/*background: rgba(0,0,0,.7);*/
+	overflow: hidden;
+	transition-duration: .5s;
+	border-radius: 10px;
+	padding: 8px;
+}
